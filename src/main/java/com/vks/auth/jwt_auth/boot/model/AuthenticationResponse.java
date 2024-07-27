@@ -1,0 +1,19 @@
+package com.vks.auth.jwt_auth.boot.model;
+
+public class AuthenticationResponse {
+
+    private final String jwt;
+
+    public AuthenticationResponse(String jwt) {
+
+        this.jwt = jwt;
+
+    }
+
+    public String getJwt() {
+
+        return jwt;
+
+    }
+
+}
